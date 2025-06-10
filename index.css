@@ -1,7 +1,68 @@
-#heading {
-  color: red;
+#headerComponent {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
 }
 
-h1 {
+#header-nav-items {
+  display: flex;
+  list-style-type: none;
+}
+
+.restaurant-img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.restaurant-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.res-card {
+  background-color: #f0f0f0;
+  width: 200px;
+  height: 300px;
+  margin: 5px;
+}
+
+.res-card:hover {
   border: 1px solid black;
+  cursor: grab;
+}
+.nav-list {
+  padding: 10px;
+  margin: 10px;
+}
+
+.search-btn {
+  margin: 10px;
+}
+
+.filter-btn {
+  margin: 10px;
+}
+
+#app-logo {
+  width: 75px;
+  height: 75px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.shimmer-card {
+  width: 250px;
+  height: 300px;
+  margin: 5px;
+  background-color: #f0f0f0f0;
+}
+
+.loginBtnName {
+  width: 100px;
+  height: 50px;
+  margin: 5px;
 }
